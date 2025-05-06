@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  /* Custom color definitions only */
+  --color-primary: rgb(255, 105, 180);
+  --color-gray: rgb(51, 54, 70);
+  --color-darkGray: rgb(35, 39, 52);
+}
+
+@layer components {
+  /* Container component customization */
+  .container {
+    @apply mx-auto; /* Center the container */
+    max-width: 100%;
+    padding: 1rem;
+
+    @media (min-width: 640px) {
+      padding: 2rem;
+    }
+
+    @media (min-width: 1024px) {
+      padding: 4rem; /* Adjust this value as needed */
+    }
+  }
+}
+
+@layer utilities {
+  .img-shadow {
+    filter: drop-shadow(50px 15px 20px #0f0a0f9e);
+  }
+}
