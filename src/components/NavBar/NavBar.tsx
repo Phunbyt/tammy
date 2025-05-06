@@ -1,39 +1,39 @@
 import { logo } from "../../assets/images";
-import { GiHamburgerMenu } from "react-icons/gi";
+// import { GiHamburgerMenu } from "react-icons/gi";
 import { motion } from "motion/react";
 
-const NavMenu = [
-  {
-    id: 1,
-    title: "Service",
-    link: "service",
-    delay: 0.2,
-  },
-  {
-    id: 2,
-    title: "Works",
-    link: "works",
-    delay: 0.4,
-  },
-  {
-    id: 3,
-    title: "Blog",
-    link: "blog",
-    delay: 0.6,
-  },
-];
+// const NavMenu = [
+//   {
+//     id: 1,
+//     title: "Service",
+//     link: "service",
+//     delay: 0.2,
+//   },
+//   {
+//     id: 2,
+//     title: "Works",
+//     link: "works",
+//     delay: 0.4,
+//   },
+//   {
+//     id: 3,
+//     title: "Blog",
+//     link: "blog",
+//     delay: 0.6,
+//   },
+// ];
 
-const container = (delay: number) => ({
-  hidden: { x: -100, opacity: 0 },
-  show: {
-    x: 0,
-    opacity: 1,
-    transition: {
-      delay: delay,
-      duration: 0.4,
-    },
-  },
-});
+// const container = (delay: number) => ({
+//   hidden: { x: -100, opacity: 0 },
+//   show: {
+//     x: 0,
+//     opacity: 1,
+//     transition: {
+//       delay: delay,
+//       duration: 0.4,
+//     },
+//   },
+// });
 
 const NavBar = () => {
   return (
