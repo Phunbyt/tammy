@@ -23,7 +23,7 @@ const Hero = () => {
     <>
       <main className="bg-gray text-white">
         <div className="container">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 min-h-[600px] lg:overflow-y-hidden place-items-center py-2 md:py-0">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 min-h-[600px] lg:overflow-hidden place-items-center py-2 md:py-0">
             {/* image section */}
             <div className="grid col-span-2 relative h-full justify-center items-center">
               <div className="w-[280px] sm:w-[400px] md:w-[450px]">
