@@ -23,14 +23,10 @@ const Home = () => {
     }
 
     window.addEventListener("click", handleClick);
-    window.addEventListener("touchstart", handleClick);
-
 
     // Cleanup the event listener on component unmount
     return () => {
       window.removeEventListener("click", handleClick);
-      window.addEventListener("touchstart", handleClick);
-
     };
   }, [clickCount]);
 
