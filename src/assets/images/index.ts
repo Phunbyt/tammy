@@ -4,6 +4,6 @@ import write from "./writ.png";
 import speak from "./speak.png";
 import create from "./create.png";
 import companies from "./comp.png";
-import comedy from "./comedy.jpg";
+import comedy from "./comedy copy.jpg";
 // import tammy from "./person-j01VA7mM.png";
 export { logo, tammy, companies, write, speak, create, comedy };
