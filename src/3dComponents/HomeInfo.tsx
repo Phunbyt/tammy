@@ -58,9 +58,9 @@ const HomeInfo = ({ currentStage }: HomeInfoProps) => {
     ),
     4: (
       <InfoBox
-        text={"Here's me expressing my love for you in symphonies"}
+        text={"More from your oversabi boyfr🤐🤐🤐🤐🤐"}
         link={"/mine/playlist"}
-        btnText={"Sing along"}
+        btnText={"Hey, stranger"}
       />
     ),
   };

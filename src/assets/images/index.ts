@@ -5,5 +5,16 @@ import speak from "./speak.png";
 import create from "./create.png";
 import companies from "./comp.png";
 import comedy from "./comedy copy.jpg";
-// import tammy from "./person-j01VA7mM.png";
-export { logo, tammy, companies, write, speak, create, comedy };
+import soundon from "./soundon.png";
+import soundoff from "./soundoff.png";
+export {
+  logo,
+  tammy,
+  companies,
+  write,
+  speak,
+  create,
+  comedy,
+  soundon,
+  soundoff,
+};

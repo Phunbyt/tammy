@@ -38,8 +38,8 @@ import { motion } from "motion/react";
 const NavBar = () => {
   return (
     <>
-      <div className="py-0 bg-gray text-white">
-        <div className="container flex items-center justify-between">
+      <div className="py-0 bg-gray text-white" style={{ maxHeight: "80px" }}>
+        <div className="container  flex items-center justify-between">
           {/* logo section */}
           <div>
             <motion.img

@@ -87,6 +87,10 @@ const Game = () => {
             <p className="text-xl">
               You scored {score} out of {questions.length}
             </p>
+            <p className="text-md">
+              High or low score, the faces you see in this game have nothing but
+              love for you till eternity... Happy birthday our Beloved
+            </p>
             <button
               onClick={handleRestart}
               className="mt-4 bg-blue-600 text-white px-6 py-3 rounded-xl"

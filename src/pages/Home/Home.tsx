@@ -36,7 +36,7 @@ const Home = () => {
   };
 
   const handleConfirm = () => {
-    if (password === "test") {
+    if (password === "initiative") {
       window.location.href = "/mine"; // Redirect to /mine
     } else {
       setModalVisible(false); // Close modal if the password is incorrect
